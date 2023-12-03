@@ -1,0 +1,36 @@
+@page "/servicos/{slug}/{id}"
+@model Details
+
+
+<h2 class="my-3">@Model.Servico.Nome</h2>
+<div class="row">
+    <div class="col-4">
+        <img class="img-fluid rounded" src="@Model.Servico.ImagemUri">
+    </div>
+    <div class="col-6">
+        <h4 class="my-3">Sobre:</h4>
+        <p>@Model.Servico.Descricao</p>
+        <h4 class="my-3">Mais Info:</h4>
+        <ul>
+            <li>
+                <label asp-for="Servico.Preco"></label>:
+                @Html.DisplayFor(model => model.Servico.Preco)
+            </li>
+            <li>
+                <label asp-for="Servico.JardineiroProfissionalFormatado"></label>:
+                @Html.DisplayFor(model => model.Servico.JardineiroProfissionalFormatado)
+            </li>
+            <li>
+                <label asp-for="Servico.DataCadastro"></label>:
+                @Html.DisplayFor(model => model.Servico.DataCadastro)
+            </li>
+            @if (Model.DescricaoMarca is not null)
+            {
+                <li>
+                    <label asp-for="Servico.MarcaId"></label>:
+                    @Html.DisplayFor(model => model.DescricaoMarca)</li>
+            }
+        </ul>
+        <a class="btn my-3 btn-primary" asp-page="/Edit" asp-route-id="@Model.Servico.ServicoId">Editar</a>
+    </div>
+</div>
