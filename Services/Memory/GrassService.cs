@@ -56,6 +56,11 @@ public class GrassService : IGrassService
         throw new NotImplementedException();
     }
 
+    public IList<Categoria> ObterTodasCategorias()
+    {
+        throw new NotImplementedException();
+    }
+
     private void CarregarListaInicial()
     {
         _servicos = new List<Servico>

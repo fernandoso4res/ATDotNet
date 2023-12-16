@@ -1,5 +1,6 @@
 using CleanGrassAppWeb.Data;
 using CleanGrassAppWeb.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CleanGrassAppWeb.Services.Data;
 
@@ -21,6 +22,7 @@ public class GrassService : IGrassService
         servicoEncontrado.DataCadastro = servico.DataCadastro;
         servicoEncontrado.JardineiroProfissional = servico.JardineiroProfissional;
         servicoEncontrado.MarcaId = servico.MarcaId;
+        servicoEncontrado.Categorias = servico.Categorias;
         _context.SaveChanges();
     }
 
@@ -39,7 +41,9 @@ public class GrassService : IGrassService
 
     public Servico Obter(int id)
     {
-        return _context.Servico.SingleOrDefault(item => item.ServicoId == id);
+        return _context.Servico
+            .Include((item => item.Categorias))
+            .SingleOrDefault(item => item.ServicoId == id);
         
     }
 
@@ -50,4 +54,6 @@ public class GrassService : IGrassService
 
     public IList<Marca> ObterTodasMarcas() => _context.Marca.ToList();
     public Marca ObterMarca(int id) => _context.Marca.SingleOrDefault(item => item.MarcaId == id);
+
+    public IList<Categoria> ObterTodasCategorias() => _context.Categoria.ToList();
 }

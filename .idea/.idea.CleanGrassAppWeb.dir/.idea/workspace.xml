@@ -7,7 +7,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08b74bc3-eefd-4b56-a7f7-588f66bce4e6" name="Changes" comment="" />
+    <list default="true" id="08b74bc3-eefd-4b56-a7f7-588f66bce4e6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanGrassAppWeb.dir/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CleanGrassAppWeb.dir/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanGrassAppWeb.dir/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanGrassAppWeb.dir/.idea/dataSources/1de88dc9-d9e5-4a3e-b2da-57c5e8c6dea5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanGrassAppWeb.dir/.idea/dataSources/1de88dc9-d9e5-4a3e-b2da-57c5e8c6dea5/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanGrassAppWeb.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CleanGrassAppWeb.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanGrassAppWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CleanGrassAppWeb.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CleanGrassDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/CleanGrassDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataMigrations/CleanGrassDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataMigrations/CleanGrassDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Marca.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Marca.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Servico.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Servico.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Create.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Edit.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Edit.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Data/GrassService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Data/GrassService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/IGrassService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/IGrassService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Memory/GrassService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Memory/GrassService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/CleanGrassAppWeb.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/CleanGrassAppWeb.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/CleanGrassAppWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/CleanGrassAppWeb.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/CleanGrassAppWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/CleanGrassAppWeb.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/CleanGrassAppWeb.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/CleanGrassAppWeb.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/CleanGrassAppWeb.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/CleanGrassAppWeb.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/ref/CleanGrassAppWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/ref/CleanGrassAppWeb.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c:identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/c:identifier.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/CleanGrassAppWeb.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/CleanGrassAppWeb.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/CleanGrassAppWeb.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/CleanGrassAppWeb.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/CleanGrassAppWeb.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/CleanGrassAppWeb.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CleanGrassAppWeb.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/CleanGrassAppWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/CleanGrassAppWeb.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/obj/staticwebassets.pack.sentinel" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +72,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Pages/Privacy.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -29,11 +83,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.CleanGrassAppWeb.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/fernando/Desktop/TP3deDotnet",
+    "last_opened_file_path": "/home/fernando/Desktop/TP3deDotnet/c:identifier.sqlite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,8 +102,8 @@
       "sqlite"
     ],
     "rider.external.source.directories": [
-      "/home/fernando/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/home/fernando/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache",
+      "/home/fernando/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/home/fernando/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache",
       "/home/fernando/.local/share/Symbols/src"
     ]
   }
@@ -84,12 +139,15 @@
       <workItem from="1701608326464" duration="242000" />
       <workItem from="1701608669567" duration="8198000" />
       <workItem from="1701618546586" duration="2761000" />
+      <workItem from="1702602915660" duration="644000" />
+      <workItem from="1702652815753" duration="17266000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

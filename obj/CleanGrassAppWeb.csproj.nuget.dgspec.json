@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/fernando/Desktop/Faculdade/Desen Web Dotnet/CleanGrassAppWeb/CleanGrassAppWeb.csproj": {}
+    "/home/fernando/Desktop/Faculdade/CleanGrassAppWeb/CleanGrassAppWeb.csproj": {}
   },
   "projects": {
-    "/home/fernando/Desktop/Faculdade/Desen Web Dotnet/CleanGrassAppWeb/CleanGrassAppWeb.csproj": {
+    "/home/fernando/Desktop/Faculdade/CleanGrassAppWeb/CleanGrassAppWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fernando/Desktop/Faculdade/Desen Web Dotnet/CleanGrassAppWeb/CleanGrassAppWeb.csproj",
+        "projectUniqueName": "/home/fernando/Desktop/Faculdade/CleanGrassAppWeb/CleanGrassAppWeb.csproj",
         "projectName": "CleanGrassAppWeb",
-        "projectPath": "/home/fernando/Desktop/Faculdade/Desen Web Dotnet/CleanGrassAppWeb/CleanGrassAppWeb.csproj",
+        "projectPath": "/home/fernando/Desktop/Faculdade/CleanGrassAppWeb/CleanGrassAppWeb.csproj",
         "packagesPath": "/home/fernando/.nuget/packages/",
-        "outputPath": "/home/fernando/Desktop/Faculdade/Desen Web Dotnet/CleanGrassAppWeb/obj/",
+        "outputPath": "/home/fernando/Desktop/Faculdade/CleanGrassAppWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/fernando/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -45,6 +57,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.0, )"
             }

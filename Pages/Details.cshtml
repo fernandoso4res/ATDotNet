@@ -30,7 +30,20 @@
                     <label asp-for="Servico.MarcaId"></label>:
                     @Html.DisplayFor(model => model.DescricaoMarca)</li>
             }
+            
+            @if (Model.Servico.Categorias.Any())
+            {
+                <li>
+                    <label asp-for="Servico.Categorias"></label>:
+                    @string.Join(",", Model.Servico.Categorias.Select(item => item.Descricao))</li>
+            }
+            
+            
         </ul>
-        <a class="btn my-3 btn-primary" asp-page="/Edit" asp-route-id="@Model.Servico.ServicoId">Editar</a>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a class="btn my-3 btn-primary" asp-page="/Edit" asp-route-id="@Model.Servico.ServicoId">Editar</a>
+        }
+        
     </div>
 </div>

@@ -3,11 +3,33 @@ using CleanGrassAppWeb.Data;
 using CleanGrassAppWeb.Services.Data;
 using CleanGrassAppWeb.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<CleanGrassDbContext>();
+
+
+
+builder.Services.Configure<IdentityOptions>(options => {
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 3;
+// Lockout settings
+    options.Lockout.MaxFailedAccessAttempts = 30;
+    options.Lockout.AllowedForNewUsers = true;
+// User settings
+    options.User.RequireUniqueEmail = true;
+});
 
 // Add services to the container.''
-builder.Services.AddRazorPages();
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AuthorizeFolder("/Marcas");
+    options.Conventions.AuthorizeFolder("/Categorias");
+});
 
 builder.Services.AddTransient<IGrassService, GrassService>();
 builder.Services.AddDbContext<CleanGrassDbContext>();
@@ -30,7 +52,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();

@@ -1,12 +1,14 @@
 using CleanGrassAppWeb.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanGrassAppWeb.Data;
 
-public class CleanGrassDbContext : DbContext
+public class CleanGrassDbContext : IdentityDbContext
 {
     public DbSet<Servico> Servico { get; set; }
     public DbSet<Marca> Marca { get; set; }
+    public DbSet<Categoria> Categoria { get; set; } 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
